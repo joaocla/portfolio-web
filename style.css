@@ -1,47 +1,43 @@
 *{
-    font-family: Arial, Helvetica, sans-serif;
-}
-
-/** HEADER STYLE **/
-header {
-    min-height: 54px;
-    position: fixed;
-    top: 0;
-    right: 0;
-    left: 0;
-    z-index: 2;
-  }
-.logo{
-    width: 50px;
-    background-color: white;
-    border-radius: 50%;
-}
-header h1{
-    color: white;
-    text-align: center;
+    padding: 0;
     margin: 0;
-    font-size: 50px;
-}
-/** FIM HEADER **/
-
-/** TOPO STYLE **/
-
-.topo{
-    background-image: url(https://images.unsplash.com/photo-1542831371-29b0f74f9713?ixid=MnwxMjA3fDB8MHxzZWFyY2h8MXx8Y29kZXxlbnwwfHwwfHw%3D&ixlib=rb-1.2.1&w=1000&q=80);
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center;
-    justify-content: space-between;
-    z-index: -1;
-    top: 0;
-    left: 0;
-}
-
-#foto-perfil{
-    justify-content: center;
 }
 
 body{
-    padding: 0;
-    margin: 0;
+    background-color: white;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+h1{
+    font-size: 60px;
+    color: white; text-shadow: black 0.1em 0.1em 0.2em;
+}
+
+.banner{
+    background-image: url(/img/fundo-topo.jpeg);
+    background-position-y: 30%;
+    background-size: cover;
+    text-align: center;
+}
+
+.banner p{
+    font-size: 25px;
+    color: white; text-shadow: black 0.1em 0.1em 0.2em;
+    font-weight: bold;
+}
+
+.banner a{
+    color: #00C18E;
+    text-decoration: none;
+}
+
+.banner-logos img{
+    width: 90px;
+}
+
+
+.foto-perfil img{
+    width: 300px;
+    border-radius: 50%;
+    border:4px solid white;
 }
